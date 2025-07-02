@@ -48,13 +48,13 @@ def train_STAGATE(adata, hidden_dims=[512, 30], n_epochs=1000, lr=0.001, key_add
     AnnData
     """
 
-    # seed_everything()
-   # seed=random_seed
+   # seed_everything()
+    seed=random_seed
     import random
-   # random.seed(seed)
-   # torch.manual_seed(seed)
-   # torch.cuda.manual_seed_all(seed)
-   # np.random.seed(seed)
+    random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
 
     adata.X = sp.csr_matrix(adata.X)
     

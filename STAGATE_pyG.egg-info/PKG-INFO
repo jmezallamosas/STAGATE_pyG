@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.2
 Name: STAGATE_pyG
 Version: 1.0.0
 Summary: Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder
@@ -8,5 +8,12 @@ Author-email: dongkangning16@mails.ucas.ac.cn
 License: MIT
 License-File: LICENSE
 Requires-Dist: requests
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary
 
  
